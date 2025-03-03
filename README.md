@@ -11,14 +11,18 @@ Example:
 ### 02/27/2023
 ### url = 'https://www.cnbc.com/2023/02/27/5-things-to-know-before-the-stock-market-opens-monday-february-27.html'
 
-The results were surprising, as I had a 73.33% Accuracy Rating of Predicting the Dow Jones on a Daily Basis. 
+Contents:
+
+1. DailySentimentScores_CNBC.ipynb.ipynb <- This takes the 'Premarket_Newsfeeds_v2.csv' and gives it a Text Sentiment Score on the CNBC Articles...
+2. MachineLearningResultsDowJonesPredict <- train_text_v2 dataset - the Data on Previous News Sentiment Scores from Federal Reserve and the Historical Dow Jones Results on Closing on a Daily Basis.
+3.  MachineLearningResultsDowJonesPredict <- test_text_v2 dataset is the Sentiment Scores from the CNBC articles with the results of the previous session of the Dow Jones Closing Results.
+
+The results were surprising, as I had a 73.33% Accuracy Rating of Predicting the Dow Jones on a Daily Basis. I would not take it as Financial Advice my professor noted.
+
 # Prediction ### 0,0,0,1,1,1,1,0,0,0,0,0,1,1,1
 # Actual     ### 0,0,1,1,1,1,0,0,0,0,0,1,1,1,0
 # Results    ### 1,1,0,1,1,1,0,1,1,1,1,0,1,1,0
 
 11/15
-
-Contents:
-
-1. Project Dataset Check... Project_MDS564_Check_Dataset.ipynb
-2. 
+0.73333333333
+   
